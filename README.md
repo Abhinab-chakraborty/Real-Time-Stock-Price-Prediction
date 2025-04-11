@@ -5,11 +5,11 @@ A robust system to analyze real-time stock market data for effective price movem
 This project implements a comprehensive stock market data pipeline that tracks and analyzes five major technology stocks (AAPL, GOOGL, MSFT, AMZN, TSLA). The system incorporates real-time data acquisition, streaming processing, and persistent storage, enabling comprehensive market analysis and monitoring through interactive dashboards.
 
 # Features
-*Real-Time Monitoring: Continuous data stream from Yahoo Finance ensuring uninterrupted market surveillance
-*Data Analysis: Historical price tracking, volume analysis, price correlation studies, volatility measurements
-*Interactive Visualization: Apache Superset dashboards for monitoring stock performance
-*Efficient Storage: PostgreSQL database optimized for time-series financial data
-*Streaming Architecture: Apache Kafka for reliable data streaming and processing
+* Real-Time Monitoring: Continuous data stream from Yahoo Finance ensuring uninterrupted market surveillance
+* Data Analysis: Historical price tracking, volume analysis, price correlation studies, volatility measurements
+* Interactive Visualization: Apache Superset dashboards for monitoring stock performance
+* Efficient Storage: PostgreSQL database optimized for time-series financial data
+* Streaming Architecture: Apache Kafka for reliable data streaming and processing
 
 # Data Acquisition
 *Data Source: Yahoo Finance API (via yfinance Python package)
